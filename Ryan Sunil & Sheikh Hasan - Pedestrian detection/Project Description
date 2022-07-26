@@ -15,6 +15,10 @@ Pedestrian Detection
 
 	What causes the problem?
 
+		Many things can cause people to not see a pedestrian for example: They could get distracted 
+		or they could not be paying attention or many other similar reasons but they can all be avoided 
+		by using machines as they do not get tired or distracted like humans do.
+		
 		Robots need a way to translate pixels in an image into things like: Pedestrian, Traffic light, 
 		Road sign... etc. and pedestrian detection algorithim can do just that
 
