@@ -11,6 +11,7 @@ There are many platforms which can be chosen:
 1) Coqui
 2) SpeechBrain
 3) kaldi
+4) Watson speech to text 
 
 Coqui:
 Coqui is an Automatic speech recognition (ASR) engine which makes speech recognition technology and trained models openly available to developers.
@@ -37,4 +38,15 @@ SpeechBrain is an open-source and all-in-one speech toolkit. It is designed to m
 The training model:
 There are set of datasets known as recipies which can be used in order to train the model using SpeechBrain to perform tasks from scratch.
 The dataset can be considered to solves speech tasks as an Automated Speech Recognition.
+
+Watson speech to text:
+Watson Speech to text is a fast and an accurate speech transcription in multiple languages for a variety of uses.
+The process also includes custorm self service, agent assistance and speech analysis.
+
+Training Model:
+The process to creating a training model is to collect datasets, dataset like audio files and human transcription. Based on the collection the training and test 
+data should be split.
+Based on the collection using the pyaudio function the audio files should be used in the python code with the transcript in order to create a live speech to 
+text convertor.
+Using the python code, the setup can be functioned and the speech can be converted.
 
