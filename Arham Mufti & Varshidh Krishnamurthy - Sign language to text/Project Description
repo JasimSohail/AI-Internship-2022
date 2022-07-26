@@ -1,1 +1,8 @@
+What is the problem?
+The problem is not everyone knows sign language and would not be able to understand someone speaking in sign language.
 
+How can this problem be solved?
+By creating a code that can read and give out what sign language is to text.
+
+How does AI make this possible?
+AI makes this possible because through the use of image classification and a neural network, we can create a code that can convert sign language to text.
