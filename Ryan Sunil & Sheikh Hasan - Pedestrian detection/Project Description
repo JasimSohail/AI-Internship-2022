@@ -4,20 +4,30 @@ Pedestrian Detection
  
 	What is the problem?
 
-		A self driving car has no way to distinguish between a pedestrian and other obstacles so a pedestrian detection algorithim is required for all self driving cars.
+		Humans are not optimal because if they are not focused enough they might not notice the 
+		pedestrians on the road and this could be a serious hazard and it already has costed many 
+		people simple because they did not notice but a computer does not have to worry about how 
+		focused it is because no matter what it will always have a 100% focus and will have eyes 
+		everywhere even where humans cant see.
+		
+		A self driving car has no way to distinguish between a pedestrian and other obstacles 
+		so a pedestrian detection algorithim is required for all self driving cars.
 
 	What causes the problem?
 
-		Robots need a way to translate pixels in an image into things like: Pedestrian, Traffic light, Road sign... etc. and pedestrian detection algorithim can do just that
+		Robots need a way to translate pixels in an image into things like: Pedestrian, Traffic light, 
+		Road sign... etc. and pedestrian detection algorithim can do just that
 
 2) The Solution:
 
 	What is Pedestrian Detection?
 
-		Pedestrian Detection is an artificial intelligence system than can be used to distinguish between pedestrians.
+		Pedestrian Detection is an artificial intelligence system than can be used to 
+		distinguish between pedestrians.
 
 	How can we implement Pedestrian Detection?
 
-		A Pedestrian detection algorithim can be used in self driving cars to distinguish pedestrians on the road and ensure their safety.
+		A Pedestrian detection algorithim can be used in self driving cars to distinguish 
+		pedestrians on the road and ensure their safety.
 
 3) How does AI help in making this possible:
