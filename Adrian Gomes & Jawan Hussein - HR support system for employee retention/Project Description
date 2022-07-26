@@ -1,37 +1,32 @@
-HR support system for resume evaluation
+HR support system for employee retention
 Advanced Predictive Analysis
 
 1) About the problem:
    . What is the problem? 
-      Human resources specialists are meant to recruit, screen and interview job candidates however finding qualified and desired applicants within a pool 
-      of candidates requires thorough analysis of their experience in the field. According to a study by the National Federation of Independent Business, 
-      87% of HR professionals could not find suitable or qualified candidates for their job openings. 
+      maintaining talented employees is growing more and more difficult as employees are left dissatisfied with their jobs due to many contributing factors. 
+      Furthermore, if the employees are not satisfied with their jobs, it will lead to such employees leaving and seeking new opportunities  
    
    . What causes the problem? 
-      Using data for recruiting is difficult as recruiters need to consider multiple factors to identify how the candidate would continue for the coming years
-      withing the job as well as the long and short term outcomes. Furthermore, bias in employee recruiting is also highly prevalent in the recruiting process
-      and may impede in identifying whether or not candidates are fit for the job
+      there are multiple factors that promote employee resignation. These include their salary, workplace environment, job position, lack of inspiration,
+      wanting to feel more valued, yearning for job growth and career advancement, etc.
 
 2) Solution:
 
-   . What is Resume evaluation
-      Resume evaluation is the process of determining whether a candidate is qualified for a role based his or her education, experience, and other information 
-      captured on their resume. In layman’s terms it's a form of pattern matching between a job's requirements and the qualifications of a candidate based on their 
-      resume. This will allow data recruiters to attain information of the candidates which further aids in their decision making.
+   . What is employee retention?
+      Employee retention is the organizational goal of keeping talented employees and reducing turnover by fostering a positive work atmosphere to promote engagement,
+      showing appreciation to employees, and providing competitive pay and benefits and healthy work-life balance.
       
    . What is predictive analytics?
-      Predictive analytics is part of advanced analytics which predicts the future outcomes by using data from the past, data mining techniques, predictive modeling,
-      and machine learning.This allows recruitment to occur with the consideration of the education, experience, and other information within their resumes without 
-      any bias into play, further allowing a more effective recruitment process entirely.
+      Predictive analytics is part of advanced analytics that predicts future outcomes by using data from the past, data mining techniques, predictive modeling,
+      and machine learning. With predictive analysis, HR managers will be able to better aid employees feeling dissatisfied with their jobs as well as predict
+      employee resignation.
    
 3) Where does AI help in this:
 
    How does AI help in making this possible?
-     An AI screening software would filter out the applicants who do not fit the companies criteria from data collected and narrowing down all the appliants to
-     a smaller group of qualified the best qualified candidtes with a 100% bias free algorithm. AI could filter out influenial factors like the years of experience, 
-     demographic details, expected payment ect.
-   
-     AI would greatly impact the time process it would take HR and recruiting agencies to find their ideal canditate for the job
+      data will be provided to the AI model comprising the satisfaction level of employees as well as other factors. this will then help the model predict the
+      likelihood of employees leaving using predictive analysis, allowing HR managers to further implement greater employee retention techniques, reducing the 
+      amount of employees leaving.
 
       
 
