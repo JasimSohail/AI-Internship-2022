@@ -57,6 +57,24 @@
 
 5. What is the methodology involved in creating this ai?
 
-    After doing some research, we were able to come across a python library dedicated to the creation of chatbots. The library is called "chatterbot". It works
-    well with AI in training and testing. With the research we have completed, we believe the proper methodology for creating this bot would be:
-        1. 
+    After doing some research, we were able to come across NTLK (The Natural Language Toolkit, a suite of libraries and programs for symbolic and statistical
+    natural language processing for English) and Keras (an open-source software library that provides a Python interface for artificial neural networks). They
+    work well with AI and neural networks. With the research we have completed, we believe the proper methodology for creating this bot would be:
+        1. install the library using
+                conda install tensorflow
+                conda install keras
+                conda install pickle5
+                conda install nltk
+        2. import the classes using 
+                import json
+                import numpy as np
+                import random
+                import nltk
+                import utils as u
+                #nltk.download(‘punkt’)
+                #nltk.download(‘wordnet’)
+                from keras.models import Sequential
+                from keras.layers import Dense, Activation, Dropout
+                from keras.optimizers import SGD
+        3. create and train the chatbot
+                #write soon.
