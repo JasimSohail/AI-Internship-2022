@@ -17,9 +17,12 @@ to 1 (being completely satisfied). the following column "Last Evaluation" is the
 the 3rd to 5th column includes analytics of the employee in their job which shows the number of projects they have taken, their average monthly hour, and the
 time spent in the company (in years)
 
-The sixth column called "Work_accident" will show us how many accidents a person has done while working and can be used to determine how organized and 
+The sixth column called "promotion_last-5-years" will tell us if an employee was promoted in the past five years. This would show how valued the employee feels by
+the company from a scale of 0-1 (either promoted or not promoted)
+
+The seventh column called "Work_accident" will show us how many accidents a person has done while working and can be used to determine how organized and 
 focused an employee is, its values are either 0 (having no work accidents) or 1 (having 1 or more work accidents)
 
-The seventh column called "Left" can be used to determine the employees behavioral nature by checking the history being fired or quitting on short notice, 
+The eigth column called "Left" can be used to determine the employees behavioral nature by checking the history being fired or quitting on short notice, 
 this will also be determined with values 0 (has not left) and 1 (has left). This will allow our model to develop and predict more accurately based on previous 
 unsatisfied employees.
