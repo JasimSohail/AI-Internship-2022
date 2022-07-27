@@ -27,4 +27,5 @@ unsatisfied employees.
 The eigth column called "promotion_last-5-years" will tell us if an employee was promoted in the past five years. This would show how valued the employee feels by
 the company from a scale of 0-1 (either promoted or not promoted)
 
-the final 2 co
+the ninth column called "Department" shows in which department does the employee work in and the last column called "Salary" contains values ranging 
+from "low" to "high" which provides the salary of an employee relative to the salary of other employees
