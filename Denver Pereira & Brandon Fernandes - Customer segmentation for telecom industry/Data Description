@@ -1,1 +1,3 @@
-
+The dataset contains data about usage of customers, it contains the state of which the account is located in. In addition, it has the amount of minutes each account has 
+used, whether the customer has picked an international plan and if the customer has picked a voicemail plan. The amount which the data is charged. The time of day at which the calls are made. There is a 
+correlation heatmap of the data. 
