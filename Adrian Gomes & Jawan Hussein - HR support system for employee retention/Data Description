@@ -14,3 +14,8 @@ This dataset contains these columns:
 the first column called "Satisfaction Levels" will provide how satisfied the employee is with their job in a scale from 0 (being completely unsatisfied) 
 to 1 (being completely satisfied). the following column "Last Evaluation" is the employees previously recorded satisfactory levels. 
 
+the 3rd to 5th column includes general specifications of the employee which shows the number of projects they have taken, their average monthly hour, and the
+time spent in the company (in years)
+
+The sixth column called "Work_accident" will show us how many accidents a person has done while working and can be used to determine how organized and 
+focused an employee is, its values are either 0 (having no work accidents) or 1 (having 1 or more work accidents)
