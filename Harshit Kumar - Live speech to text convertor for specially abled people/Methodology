@@ -50,3 +50,15 @@ Based on the collection using the pyaudio function the audio files should be use
 text convertor.
 Using the python code, the setup can be functioned and the speech can be converted.
 
+My process of the project:
+
+To complete my project I would be following these steps below:
+
+Download a Python Speech Recognition module.
+Installing PyAudio.
+Inputting speech using a microphone and translation of text.
+Text would be the basic commands to test out the code initially.
+Lastly, input the code to output the text using the speech recognition software tools.
+
+
+
