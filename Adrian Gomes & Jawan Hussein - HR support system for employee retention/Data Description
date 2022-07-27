@@ -1,15 +1,15 @@
 This dataset contains these columns:
 
--Satisfactory Levels
--Last Evaluation
--Number Project
--Average Monthly Hour
--Time Spent
--Promotion last 5 years
--Work accidents
--Left
--Salary
--Department
+  1 -  Satisfactory Levels
+  2 -  Last Evaluation
+  3 -  Number Project
+  4 -  Average Monthly Hour
+  5 -  Time Spent
+  6 -  Work accidents
+  7 -  Left
+  8 -  Promotion last 5 years
+  9 -  Department
+  10 - Salary
 
 the first column called "Satisfaction Levels" will provide how satisfied the employee is with their job in a scale from 0 (being completely unsatisfied) 
 to 1 (being completely satisfied). the following column "Last Evaluation" is the employees previously recorded satisfactory levels. 
@@ -17,12 +17,14 @@ to 1 (being completely satisfied). the following column "Last Evaluation" is the
 the 3rd to 5th column includes analytics of the employee in their job which shows the number of projects they have taken, their average monthly hour, and the
 time spent in the company (in years)
 
-The sixth column called "promotion_last-5-years" will tell us if an employee was promoted in the past five years. This would show how valued the employee feels by
-the company from a scale of 0-1 (either promoted or not promoted)
-
-The seventh column called "Work_accident" will show us how many accidents a person has done while working and can be used to determine how organized and 
+The sixth column called "Work_accident" will show us how many accidents a person has done while working and can be used to determine how organized and 
 focused an employee is, its values are either 0 (having no work accidents) or 1 (having 1 or more work accidents)
 
-The eigth column called "Left" can be used to determine the employees behavioral nature by checking the history being fired or quitting on short notice, 
+The seventh column called "Left" can be used to determine the employees behavioral nature by checking the history being fired or quitting on short notice, 
 this will also be determined with values 0 (has not left) and 1 (has left). This will allow our model to develop and predict more accurately based on previous 
 unsatisfied employees.
+
+The eigth column called "promotion_last-5-years" will tell us if an employee was promoted in the past five years. This would show how valued the employee feels by
+the company from a scale of 0-1 (either promoted or not promoted)
+
+the final 2 co
