@@ -1,15 +1,15 @@
 This dataset contains these columns:
 
 -Satisfactory Levels
+-Last Evaluation
 -Number Project
 -Average Monthly Hour
 -Time Spent
 -Promotion last 5 years
+-Work accidents
+-Left
 -Salary
--Satisfactory Levels
--Number Project
--Average Monthly Hour
--Time Spend
+-Department
 
 the first column called "Satisfaction Levels" will provide how satisfied the employee is with their job in a scale from 0 (being completely unsatisfied) 
 to 1 (being completely satisfied)
