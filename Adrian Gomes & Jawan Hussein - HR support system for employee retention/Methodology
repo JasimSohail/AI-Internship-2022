@@ -1,3 +1,19 @@
 Support vector machine:
 
-  support vector machine (SVM) is a simple algorithm
+  support vector machine (SVM) is a simple algorithm used for classification and regression issues ( mainly used for classification issues ). 
+  The whole point of SVM algorithm is to find a hypeline in an N-dimensional space ( N-num of features ) that clasifies the data points so we can 
+  put the new data point in the correct place foe the future.
+  
+  Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to 
+  different classes. Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. 
+  Using these support vectors, we maximize the margin of the classifier.   
+
+Random forest:
+
+  Random forest is a frequently used machine learning algorithm that belong to the supervised learning technique wich combines the output of multiple descision
+  trees to reach a single result.
+  
+  Desicion trees can form an ensemble in the random forest algorithm to predict acurate results.
+  
+  Random forest algorithms have three main hyperparameters, which need to be set before training. These include node size, the number of trees,
+  and the number of features sampled
