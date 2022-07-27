@@ -1,1 +1,42 @@
+To build the mineral structure prediction code, we require an algorithm upon which the foundation will be based on.
 
+There are 5 algorithms to choose from:
+
+1. TensorFlow
+2. PyTorch
+3. Linear Regression
+4. SVM Regressor
+5. Random Forest Regressor
+
+TensorFlow:
+
+TensorFlow is an open-source library which can be utilised by Python code. It is described as one the most specialised algorithms
+to train and test various models.
+TensorFlow uses symbolic math which allows for deep neural network training. The TensorFlow algorithm enables an ability where 
+the developers can create graphs / strutures which can describe the data and how it flows, hence allowing it to be modeled.
+
+PyTorch:
+
+Pytorch is exceptionally similar to TensorFlow, where it is an algorithm based off the Torch Library which is utilised to train and
+test models.
+However, the main difference between the two algorithms is how they function. PyTorch uses dynamic computational graphs, which are much 
+more practical than static graphs, allowing users to make accurate evaluations from the graphs.
+
+Linear Regression:
+
+Linear Regression is a simple and mathemacial way to obtain a result based off of two variables, a dependant and independent.
+By plotting the variables in a graph, a correlation or link will be identified through various stages of training and testing, and a 
+straight solid line (best fit) will be produced. 
+Predictions can be solidified based on the line of best fit and errors can easily be identified.
+
+SVM Regressor:
+
+Support Vector Regression is a supervised learning algorithm that is used to predict discrete values. Ironically, an SVM Regressor is most 
+commonly used for classification, however that is not to say it can be used for regression as well.
+The SVM Regressor works almost identically as a regurlar linear regression algorithm does, however creates a line of best fit for data 
+which is discrete, where normal patterns cannot be recognised.
+
+Random Forest Regressor:
+
+Random Forest Regressor utilises many decision trees to predict and output from a variable. The algorithm calculates the most populous 
+and most commonly occuring outcome and outputs it as a prediction.
