@@ -19,3 +19,7 @@ time spent in the company (in years)
 
 The sixth column called "Work_accident" will show us how many accidents a person has done while working and can be used to determine how organized and 
 focused an employee is, its values are either 0 (having no work accidents) or 1 (having 1 or more work accidents)
+
+The seventh column called "Left" can be used to determine the employees behavioral nature by checking the history being fired or quitting on short notice, 
+this will also be determined with values 0 (has not left) and 1 (has left). This will allow our model to develop and predict more accurately based on previous 
+unsatisfied employees
