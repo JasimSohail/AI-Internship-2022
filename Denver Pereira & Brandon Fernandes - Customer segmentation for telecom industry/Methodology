@@ -1,1 +1,12 @@
+K means is a type of unsupervised learning which involves putting unlabelled data into clusters.
+
+1. Is to import the libraries needed, this is a common step for all types of algorithms.
+2. Then we need to read the data set using pandas library, and assign the data to a variable
+3. We have to explore the data using data info seeing what is the data we are dealing with the number of columns, and rows, also the max data the median data and the minimum data
+4. After that we need to make any boolean data into 1 and 0's using label encoding
+5. Then we need to plot the data into a graph to see any correlation, over here we are using a heatmap to determine the correlation
+6. Then we need to standardize the data so it's in the range of 0 and 1 so they all are in the same range
+7.  Then we have to determine how many clusters should be in the algorithm, we do this using WCSS, and then we need to graph it, this is known as the elbow method, where the bend appears is the number of clusters needed
+8. Then we fit our model to our specific dataset
+9. Finally we identify what are the clusters separated based of by seeing the average values for each cluster and parameters
 
