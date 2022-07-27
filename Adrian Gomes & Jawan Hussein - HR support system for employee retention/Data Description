@@ -10,3 +10,7 @@ This dataset contains these columns:
 -Number Project
 -Average Monthly Hour
 -Time Spend
+
+the first column called "Satisfaction Levels" will provide how satisfied the employee is with their job in a scale from 0 (being completely unsatisfied) 
+to 1 (being completely satisfied)
+
