@@ -22,4 +22,4 @@ focused an employee is, its values are either 0 (having no work accidents) or 1 
 
 The seventh column called "Left" can be used to determine the employees behavioral nature by checking the history being fired or quitting on short notice, 
 this will also be determined with values 0 (has not left) and 1 (has left). This will allow our model to develop and predict more accurately based on previous 
-unsatisfied employees
+unsatisfied employees.
