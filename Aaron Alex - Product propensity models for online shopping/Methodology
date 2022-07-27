@@ -104,3 +104,27 @@ Redundant data:
 
 After making correlations, redundant data will also be discovered. 
 This can be removed as it will have no effect on the training of the model.
+
+------------------------------------------------------------------------------------
+
+Now we can begin with the actual method as to how we are going to train the model.
+
+We have our data collected and organized, we first need to separate the data into 
+train and test.
+We do this using the train_test_split function, which will split all the data values into variables such as:
+  - x_train
+  - x_test
+  - y_train
+  - y_test
+
+
+The classifier being used will be the Naive Bayes classifier and/or Logistic Regression.
+
+
+
+
+
+
+
+
+
