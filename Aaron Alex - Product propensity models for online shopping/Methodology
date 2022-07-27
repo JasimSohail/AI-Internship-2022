@@ -107,6 +107,30 @@ This can be removed as it will have no effect on the training of the model.
 
 ------------------------------------------------------------------------------------
 
+Steps:
+
+Importing Necessary Libraries:
+
+Before writing any code we must first import the libraries we need.
+- pandas, matplotlib, sklearn
+
+Loading the dataset:
+
+We also need to load the actual data using pandas, so we can work with it.
+
+Assigning Predictors:
+
+We first define that our predictors values are integers.
+
+Then we remove the field "ordered" - predicted feature
+And also remove any unecessary fields that were made redundant.
+
+Assigning Predicted feature:
+
+Now we define the predicted feature - ordered.
+
+Training:
+
 Now we can begin with the actual method as to how we are going to train the model.
 
 We have our data collected and organized, we first need to separate the data into 
@@ -116,15 +140,14 @@ We do this using the train_test_split function, which will split all the data va
   - x_test
   - y_train
   - y_test
+  
+The parameters used in the function will be the predictor variable and target (predicted feature) variable.
 
+Now we import .naive_bayes (our classifier algorithm) from sklearn to train the model 
+Use the .fit function - x_train, y_train as parameters
 
-The classifier being used will be the Naive Bayes classifier and/or Logistic Regression.
+  
+Training accuracy:
 
-
-
-
-
-
-
-
+We can find how accurate our model is after training, using .accuracy_score from sklearn.
 
