@@ -27,3 +27,13 @@ K-Nearest Neighbour:
 
   It is a non-parametric algorithm which does not require/create any assumptions or underlying data
   
+Naive Bayes algorithm:
+  
+  its a machine learning algorithm that is based upon probability and is subject to chance variation. This algorithm is highly versatile and is applied is a wide
+  selection of classification tasks
+  
+  The name "naive" is used because it assumes the features that go into the model is independent of each other. That is changing the value of one feature,
+  does not directly influence or change the value of any of the other features used in the algorithm.
+  
+  The great advantage with Naive Bayes algorithm is the ease and speed at which you can code and make predictions with. Thanks to the advantages, it is 
+  easily scalable and is teh algorithm of choice in real world applications, which responds to a user's request instantaneously.
