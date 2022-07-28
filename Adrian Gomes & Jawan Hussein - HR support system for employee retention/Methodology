@@ -17,3 +17,13 @@ Random forest:
   
   Random forest algorithms have three main hyperparameters, which need to be set before training. These include node size, the number of trees,
   and the number of features sampled
+
+K-Nearest Neighbour:
+
+  The K-Nearest Neighbour algorithm (or K-NN for short) deduces a similarity which connects the new data and available cases. Then it then places the 
+  new data into the category that is most similar to the categories at hand.
+
+  When it stores all available data, it classifies a new data point based on the similarity, hence new data can be easily classified into its proper category
+
+  It is a non-parametric algorithm which does not require/create any assumptions or underlying data
+  
