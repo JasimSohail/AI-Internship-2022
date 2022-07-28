@@ -1,6 +1,6 @@
 Support vector machine:
 
-  support vector machine (SVM) is a simple algorithm used for classification and regression issues ( mainly used for classification issues ). 
+  Support vector machine (SVM) is a simple algorithm used for classification and regression issues ( mainly used for classification issues ). 
   The whole point of SVM algorithm is to find a hypeline in an N-dimensional space ( N-num of features ) that clasifies the data points so we can 
   put the new data point in the correct place foe the future.
   
