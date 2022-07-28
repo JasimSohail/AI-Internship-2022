@@ -41,4 +41,7 @@ Naive Bayes algorithm:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Exploratory Data Analysis (EDA):
 
+  Once our data has been collected, we need to find the correlations and understand the data provided before making any unnecessary assumptions. Exploratory Data
+  Analysis (EDA), mainly used by data scientists to further analyze and investigate a dataset and collect its main attributes
