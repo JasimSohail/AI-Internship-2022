@@ -70,4 +70,37 @@ Exploratory Data Analysis (EDA):
   Eliminating redundant data:
   
   After finishing the correlations redundant data will be found. This has no effect on training the model and can simply be removed.
+  
+  ------------------------------------------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Training:
+  
+  Starting now we can begin with the method of we will be traing our model.
+  
+  With the data we have collected, we will separate the data into train and test.
+   -x_train
+   -x_test
+   -y_train
+   -y_test
+   
+  The predictor variable and target (predicted feature) variable will be the parameters used in this function.
+  
+  From this we will import .naive_bayes (our classifier algorithm) from sklearn to start traing the model.
+  We will use .fit fuction - x_train, y_train (written above) as the parameters.
+  
+  
+  Traing accuracy:
+  
+  Training accuracy means that identical images are used both for training and testing. We can know how accurate our model is after traing it, using
+  .accuracy_score from sklearn.
 
