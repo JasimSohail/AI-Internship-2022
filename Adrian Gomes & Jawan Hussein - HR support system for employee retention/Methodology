@@ -51,8 +51,8 @@ Exploratory Data Analysis (EDA):
   the process of EDA is broken down into 3 major steps:
   
   1) Data visualization
-  2) Finding similarities/correlations
-  3) Eliminating redundant data/features
+  2) correlations
+  3) Eliminating redundant data
   
   
   
@@ -61,3 +61,14 @@ Exploratory Data Analysis (EDA):
   Data visualization is the graphical representation of information and data. It helps people make sense of all the information, or data, generated today. 
   With data visualization, information is represented in graphical form, which allows us to better understand the intricacies a dataset may contain, 
   which we can further use to our benefit.
+  Correlations:
+
+  Correlations: 
+  
+  Correlations can be found by visualizing data in the previous step. This allows us to find the features that are not as correlated, which we can then classify
+  as "Redundant data"
+  
+  Eliminating redundant data:
+  
+  After finishing the correlations redundant data will be found. This has no effect on training the model and can simply be removed.
+
