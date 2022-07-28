@@ -1,1 +1,50 @@
+1) About the problem:
 
+What is the problem?
+
+    Bank fraud is the use of potentially illegal means to obtain money, assets, or other property owned or held by a financial institution
+
+    It reveals that fraud is costing the global economy £3.89 trillion, with losses rising by 56% in the past decade. — Crowe UK(Accounting firm)
+
+
+Types of fraud
+
+    Businesses can sometimes overstate sales or profits to make the company seem worth more than it is, this is known as accounting fraud
+
+    Fraudsters can copy clients' credit card numbers and then use the card for themselves
+
+    They can even impersonate the client to access their cards and account and then use up stored money, this is known as identity theft
+
+    Fraudsters can also forge offical documetns (eg. increasing the amount of moeny in a cheque) for financial gain
+
+
+2)The Solution:
+
+
+What is a fraud detection system? 
+
+    The system identifies the pattern and strategies through machine learning, statistical analysis, and 
+    behavior monitoring to prevent frauds. The fraud detetcion system stops any fraudulent activity 
+    before any damage occurs. 
+
+How is this inplemented in the banking sector? 
+
+    These systems are implemented by the machine learning from the provided dataset without any human 
+    assistance. This can help reduce damage such as loss of personal information . 
+
+How will this solve the problem? 
+
+    In the banking sector, these systems can help combat and defeat application fraud by detecting 
+    illicit activity early in the process and prevent maximum damage. 
+
+
+
+3) How does AI help in making this possible:
+
+    Generally, banks use superwisied learning machine algorithms. A former already annotated data — 
+    reviewed and labeled as fraud activity by a human — to learn patterns in datasets provided 
+    by a business. 
+	Former is a machine automatically learning from existing data Without being assisted by human 
+    beings.
+
+    AI can help by creating a profile for each client the bank by recording the past actions of the client. the Ai then uses this model to deermine the plausibility of recent transactions.
