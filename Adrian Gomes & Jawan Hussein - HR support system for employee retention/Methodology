@@ -44,4 +44,20 @@ Naive Bayes algorithm:
 Exploratory Data Analysis (EDA):
 
   Once our data has been collected, we need to find the correlations and understand the data provided before making any unnecessary assumptions. Exploratory Data
-  Analysis (EDA), mainly used by data scientists to further analyze and investigate a dataset and collect its main attributes
+  Analysis (EDA), mainly used by data scientists to further analyze and investigate a dataset and obtain its main attributes. With this we can then determine
+  how best to use the data for our requirements. It also helps us discover the patterns within the dataset, find abnormal data, test our predictions or check
+  any assumptions we create.
+  
+  the process of EDA is broken down into 3 major steps:
+  
+  1) Data visualization
+  2) Finding similarities/correlations
+  3) Eliminating redundant data/features
+  
+  
+  
+  Data visualization:
+  
+  Data visualization is the graphical representation of information and data. It helps people make sense of all the information, or data, generated today. 
+  With data visualization, information is represented in graphical form, which allows us to better understand the intricacies a dataset may contain, 
+  which we can further use to our benefit.
