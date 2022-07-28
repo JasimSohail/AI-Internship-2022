@@ -51,15 +51,57 @@
 
 6. What are some similar examples/projects of ai chatbots?
 
-    find different projects related to chatbot
+    find different projects related to chatbot. reference links
 
 
 
 5. What is the methodology involved in creating this ai?
 
+    After having collected to relevant data required in order to train and test the model, we now need to create it.
+    
+    To build a chatbot, we first require knowing the chatbot type that will act as the foundation from which the program can be coded.
+    
+    There are many chatbot type that we can choose from:
+
+        A) Rule-based
+        B) Self-learning
+            i) Retrieval-based
+            ii) Generative
+    
+    
+    Rule-based:
+    
+        Rule-based chatbots host a sequence of pre-determined rules on which it was initially trained in order to answer customer queries. Unfortunately,
+        this approach is very limited and unable to answer more diverse queries.
+        
+        
+    Self-learning:
+    
+        A self-learning chatbot offers a variety of responses to different questions and can oftentimes provide better answers for more complicated
+        queries/requests. This is significantly more relevant to the chatbot we would like to use, and so we will therefore be using a self-learning chatbot.
+        However, this is also further divided into two more catagories.
+        
+        Retrieval-based:
+        
+            The retrieval-based chatbot functions on predefined inputs, patterns and set responses. Once the question/pattern is entered, the chatbot uses a
+            heuristic approach to deliver the appropriate response. The retrieval-based model is extensively used to design goal-oriented chatbots with
+            customized features like the flow and tone of the bot to enhance the customer experience.
+        
+        Generative:
+            
+            Generative chatbots are not based on predefined responses – they leverage seq2seq neural networks (sequence to sequence is a special class of
+            "Recurrent Neural Network" architectures that is typically used for solving complex language problems like Machine Translation, Question Answering,
+            creating Chatbots, Text Summarization, etc.). This is based on the concept of machine translation where the source code is translated from one
+            language to another language. In seq2seq approach, the input is transformed into an output.
+    
+    Understanding that the purpose of this chatbot is for an educational institute, we have decided to go with a self-learning retrieval-based chatbot. This is
+    because it offers a much wider variety of responses to different questions. It being retrieval-based also means we would be able to customize the fluency
+    in which it responds, as well as the degree of formality and etc. 
+    
     After doing some research, we were able to come across NTLK (The Natural Language Toolkit, a suite of libraries and programs for symbolic and statistical
     natural language processing for English) and Keras (an open-source software library that provides a Python interface for artificial neural networks). They
     work well with AI and neural networks. With the research we have completed, we believe the proper methodology for creating this bot would be:
+    
         1. install the library using
                 conda install tensorflow
                 conda install keras
