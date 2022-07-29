@@ -1,1 +1,22 @@
+Methodology:
 
+So far we have collected the relevant data needed to train and test the model, so now we need to create the model. 
+
+To build a product propensity model, we first need an algorithm that will act as the foundation from which the program can be coded. 
+
+
+There are many algorithms that we can choose from:
+
+1. Neural Networks
+2. Convolutional Neural Network (CNN)
+3. Multi Layer Perceptron (MLP)
+
+
+Neural Network:
+
+
+CNN:
+
+
+
+MLP:
