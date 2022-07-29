@@ -50,6 +50,14 @@ When you feed a computer with a piece of information, the DNN sorts the data bas
 The data is passed through successive layers until it can accurately determine the type of sound made in the data.
 The model then receives feedback on the correct answer which strengthens its learning process
 
+For our hardware, we are going to be utilizing :
+1) Raspberry pi 4
+2) pixy2 camera
+3) L298N driver
+4) ultrasonic sensors
+5) motor
+6) server motor
+
 
 
 
