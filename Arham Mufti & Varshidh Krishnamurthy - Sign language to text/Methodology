@@ -2,7 +2,7 @@ Methodology:
 
 So far we have collected the relevant data needed to train and test the model, so now we need to create the model. 
 
-To build a product propensity model, we first need an algorithm that will act as the foundation from which the program can be coded. 
+To build a sign language to text model, we first need an algorithm that will act as the foundation from which the program can be coded. 
 
 
 There are many algorithms that we can choose from:
