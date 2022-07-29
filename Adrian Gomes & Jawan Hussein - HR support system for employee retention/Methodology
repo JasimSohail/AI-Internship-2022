@@ -39,7 +39,7 @@ Naive Bayes algorithm:
   easily scalable and is teh algorithm of choice in real world applications, which responds to a user's request instantaneously.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Exploratory Data Analysis (EDA):
 
@@ -71,7 +71,8 @@ Exploratory Data Analysis (EDA):
   
   After finishing the correlations redundant data will be found. This has no effect on training the model and can simply be removed.
   
-  ------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
   
   
@@ -82,25 +83,23 @@ Exploratory Data Analysis (EDA):
   
   
   
+  Training our model:
   
-  Training:
-  
-  Starting now we can begin with the method of we will be traing our model.
-  
-  With the data we have collected, we will separate the data into train and test.
+  With the data we have collected, we will separate the data into the train and test subset using a 70-30 split (70% for training, 30% for testing).
+  These are the variables we will be creating:
    -x_train
    -x_test
    -y_train
    -y_test
    
-  The predictor variable and target (predicted feature) variable will be the parameters used in this function.
+  The independant variable and target variable (predicted outcome) will be the parameters used in this function.
   
-  From this we will import .naive_bayes (our classifier algorithm) from sklearn to start traing the model.
+  From this we will import .naive_bayes (our classifier algorithm) from sklearn to start training the model.
   We will use .fit fuction - x_train, y_train (written above) as the parameters.
   
   
-  Traing accuracy:
+  Training accuracy:
   
-  Training accuracy means that identical images are used both for training and testing. We can know how accurate our model is after traing it, using
-  .accuracy_score from sklearn.
+  Training accuracy is the accuracy of the model when applied to training data, calculated by the number of successes over the total amount of samples in the
+  training subset, this can be found by using ".accuracy_score" from sklearn.
 
