@@ -16,6 +16,9 @@ Neural Network:
 
 
 CNN:
+Neural networks are a part of machine learning and an especially important part of deep learning algorithms.
+Concolutional neural networks, or CNNs in particular are superior to regular neural networks in terms of processing performance of analysing any image, speech or audio inputs.
+The CNN is also made up of three seperate layers: a convolutional layer, a pooling layer and a fully connected (FC) layer. This allows to have three dimensions, which are height, width and depth of the input. With each layer in the CNN, the complexity oncreases which allows it to identify larger portions of an image until the image is recognised.
 
 
 
