@@ -10,3 +10,13 @@ In the long term, AI will be much more cost-effective due to it's requirement of
 algorithm running in the backend, that constantly learns from data it's provided with. The use of AI
 may also be more accurate than paying an employee to count, as large crowds may lead to human error
 in counting or may produce bias results if performed by someone working at the company.
+
+Data description: The data is provided in a video format (mp4, avi) and has to show crowds moving from 
+one end of an area to another. The camera must be placed at a birds eye view.
+
+Data set: It will make use of a compilation of videos of people moving up and down and count how many
+people move in a downward direction and how many people move up, which will be outputted.
+
+Methodology: A machine learning algorithm will be implemented to learn from several videos to be able
+to differentiate people from other objects and to count individual people within a group and identify
+whether they are moving upwards (i.e entering) or moving downwards (i.e leaving).
