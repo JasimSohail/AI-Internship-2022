@@ -4,7 +4,15 @@ We have found references needed to create the model,
 so we are few steps closer to building it.
 
 We first need an algorithm that will act as the foundation from which the program can be coded.
-The many algorithms we will be using are:
+The algorithm we will be using is Neural Network algorithm.
+
+There are different types of Neural Network Classifications, for example:
+
+Deep Neural Networks (DNN)
+Convolution Neural Networks (CNN)
+Recurrent Neural Networks (RNN)
+
+
 
 
 
