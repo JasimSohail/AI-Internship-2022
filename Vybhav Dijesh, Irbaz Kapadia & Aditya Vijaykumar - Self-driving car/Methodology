@@ -12,6 +12,21 @@ Deep Neural Networks (DNN)
 Convolution Neural Networks (CNN)
 Recurrent Neural Networks (RNN)
 
+Convolution Neural Networks:
+
+An image data processing deep learning algorithm called a convolutional neural network (CNN) was created for this purpose.
+In order to recognize and process images, complicated neural networks are used.
+The frontal lobe of the human brain, which is the area of the brain in charge of processing visual stimuli, 
+is represented by the neural networks in a CNN.
+The advantages of convolutional neural networks include:
+
+They can detect important features without human supervision 
+It has the highest accuracy amongst image detection algorithms
+It is easy to understand and implement.
+
+Deep Neural Networks:
+
+
 
 
 
