@@ -12,7 +12,7 @@ Deep Neural Networks (DNN)
 Convolution Neural Networks (CNN)
 Recurrent Neural Networks (RNN)
 
-Convolution Neural Networks:
+Convolution Neural Network:
 
 An image data processing deep learning algorithm called a convolutional neural network (CNN) was created for this purpose.
 In order to recognize and process images, complicated neural networks are used.
@@ -24,8 +24,31 @@ They can detect important features without human supervision
 It has the highest accuracy amongst image detection algorithms
 It is easy to understand and implement.
 
-Deep Neural Networks:
+Recurrent Neural Network:
 
+A recurrent neural network (RNN) is an artificial neural network that uses sequential or time-series data to solve problems
+in speech recognition and language translation. 
+
+RNNs have been used in:
+
+Language translation
+Natural language processing
+Speech recognition
+Image captioning
+
+The connections between nodes in recurrent neural networks create directed or undirected graphs across a temporal series.
+RNNs are the most effective neural networks for machine learning tasks using sequential input since these neurons contain an internal memory.
+
+Deep Neural Network:
+
+A deep neural network (DNN) is an artificial neural network consisting of multiple layers between the input and output layers. 
+These layers could be recurrent neural network layers or convolutional layers making DNN’s a more sophisticated machine learning algorithm.
+DNNs are capable of recognizing sound, creative thinking, recognizing voice commands, and analysis. 
+
+DNN is a type of machine learning algorithm that learns through repetitive action from many samples.
+When you feed a computer with a piece of information, the DNN sorts the data based on its elements, for example, the pitch of a sound. 
+The data is passed through successive layers until it can accurately determine the type of sound made in the data.
+The model then receives feedback on the correct answer which strengthens its learning process
 
 
 
