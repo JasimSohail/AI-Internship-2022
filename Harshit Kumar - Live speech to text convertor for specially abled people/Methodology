@@ -60,5 +60,8 @@ Inputting speech using a microphone and translation of text.
 Text would be the basic commands to test out the code initially.
 Lastly, input the code to output the text using the speech recognition software tools.
 
+My Exploratory data analysis of the code:
+Whilst doing the project, converting speech to text I made use of different audio file formats which were Mp3 and Wav. Wav was the prefered audio file for 
+my code in this project. 
 
 
