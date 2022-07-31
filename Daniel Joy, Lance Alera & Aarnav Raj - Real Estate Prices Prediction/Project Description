@@ -1,1 +1,13 @@
+Problem Statement: The chaotic uncertainties and hassles caused by the ever-volatile real estate market faze millions across the globe. Most people lack adequate knowledge and insight in getting the best prices for their estates, thus propelling financial mismanagement and misuse.
+Hence, to tackle this looming problem, our group has designed a model using Artificial intelligence and Machine learning to envisage the most equitable prices for our clients.
+
+This model would be capable of learning from the given datasets, to predict your median house price using a plethora of metrics.
+
+Pitch:
+Who will it benefit, and how?
+Home sellers & buyers, real estate developers, agents, brokers, and insurance lenders.
+This would be beneficial to them to know the trend of housing prices according to their characteristics and location.
+
+How does our model benefit this use case?
+Our model employs a regression algorithm that considers property features like size, age, number of rooms, and location to arrive at a viable price range.
 
