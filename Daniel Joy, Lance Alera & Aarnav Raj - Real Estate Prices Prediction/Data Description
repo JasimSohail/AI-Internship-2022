@@ -1,1 +1,3 @@
-
+This dataset contains data about house prices in the state of Boston. They are characterised based on different properties and parameters including the age, size, number of rooms, etc.
+It also includes some external factors such as mean pollution levels, business opportunities and transport links to make the prediction as accurate as possible.
+The dataset would be plotted using linear regression
