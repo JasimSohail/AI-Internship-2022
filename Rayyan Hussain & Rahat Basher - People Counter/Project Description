@@ -17,6 +17,3 @@ one end of an area to another. The camera must be placed at a birds eye view.
 Data set: It will make use of a compilation of videos of people moving up and down and count how many
 people move in a downward direction and how many people move up, which will be outputted.
 
-Methodology: A machine learning algorithm will be implemented to learn from several videos to be able
-to differentiate people from other objects and to count individual people within a group and identify
-whether they are moving upwards (i.e entering) or moving downwards (i.e leaving).
