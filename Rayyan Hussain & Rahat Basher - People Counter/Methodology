@@ -1,1 +1,3 @@
-.
+Methodology: A machine learning algorithm will be implemented to learn from several videos to be able
+to differentiate people from other objects and to count individual people within a group and identify
+whether they are moving upwards (i.e entering) or moving downwards (i.e leaving).
