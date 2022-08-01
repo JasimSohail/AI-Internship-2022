@@ -98,6 +98,29 @@
     because it offers a much wider variety of responses to different questions. It being retrieval-based also means we would be able to customize the fluency
     in which it responds, as well as the degree of formality and etc. 
     
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Exploratory Data Analysis
+    
+    To properly understand and identify the method that will be most suitable for this project, we first have to perform initial investigations on data so as to
+    discover patterns, spot anomalies, test hypotheses, and check assumptions with the help of summary statistics and graphical representations.
+    
+    There are generally 3 steps involved in an exploratory data analysis:
+        1. Visualizing data
+        2. Finding similarities or correlations
+        3. Eliminating redundant features or data
+    
+    Visualizing data is done in order to further cultivate our understanding of intricate details contained within the dataset, as well as the ways in which the
+    data can be used to achieve our goals. 
+    
+    Correlations can be found via the visualization of data. Generally, less correlated features decreases the value of usefulness that may be possible to attain.
+    
+    After identifying correlations within the dataset, it becomes easily possible to identify reduntant features. They are then removed because they have little
+    to no effect on the results of the model.
+    
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    Steps Involved
+    
     After doing some research, we were able to come across NTLK (The Natural Language Toolkit, a suite of libraries and programs for symbolic and statistical
     natural language processing for English) and Keras (an open-source software library that provides a Python interface for artificial neural networks). They
     work well with AI and neural networks. With the research we have completed, we believe the proper methodology for creating this bot would be:
