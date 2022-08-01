@@ -1,1 +1,10 @@
+To complete this project, I used various sites for my research, finding an audio file and refering to the code which is the standard for speech to text conversion.
 
+The links for the research, audio file and the code are as follows:
+
+https://www.analyticsvidhya.com/blog/2022/01/speech-to-text-conversion-in-python-a-step-by-step-tutorial/
+https://freesound.org/home/
+https://stt.readthedocs.io/en/latest/playbook/INTRO.html
+https://mila.quebec/en/article/introducing-speechbrain-a-general-purpose-pytorch-speech-processing-toolkit/
+https://towardsdatascience.com/how-to-start-with-kaldi-and-speech-recognition-a9b7670ffff6
+https://medium.com/ibm-watson-speech-services/watson-speech-to-text-how-to-train-your-own-speech-dragon-part-1-data-collection-and-fdd8cea4f4b8
