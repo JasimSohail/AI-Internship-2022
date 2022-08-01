@@ -77,19 +77,26 @@ Naive Bayes:
 autocorrection model. The unique approach of this algorithm best suited the goals that our model intends to achieve. Hnece, the following Steps will
 be based on the "Naive Bayes".  
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Steps:
 
-Here we will demonstrate how we will lay out our procedures
+In the following lines, we will demonstrate the fundamental foundation of the functioning of our algorithm and our procedures.
 
 
 
 
-First we would need to import the neccessary librabies:
+To begin, we would need to import the neccessary libraries:
  
--Pandas
--Numpy
+- Pandas
+- Numpy
+- sklearn
+- GaussianNB
 
-After this we would need a data set to train and test our model. From a little searching we have discovered a file including 1001 of the most popular words today, this set would be enough for a wide range of vocabulary.
+
+After this, we obtian a suitable data set to train and test our model. Through extensive research, we were able to come up with a file including 1001 of the most popular words used by individuals today. 
+This set would be enough for a wide range of vocabulary.
 
 We need to load the data using pip so we can work with it
 
