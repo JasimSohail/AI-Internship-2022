@@ -1,2 +1,13 @@
-
+1. Import the libraries and modules required, including: pandas, numpy and matplotlib
+2. Read the dataset using pandas, and then assign the data to a variable
+3. Explore the data using data info, getting overall understanding of the data we are working with. The Rows, columns, mean, median, range etc are taken into consideration,
+4. Data Pre-processing is done
+5. We have to standardize the data into 0's and 1's so they are all within the same range to be plotted
+6. Train Test split
+7. Find the dependent and independent variables for data analysis
+8. Now we have to plot our data into a graph using matplotlib to see any correlation or variance.
+9. Plot a line of best fit
+10. Find it's slope and intercept
+11. XGBoost Regressor
+12. Evaluation
 
