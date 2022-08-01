@@ -34,3 +34,11 @@ It is also a neural network and follows the same structure as one.
 2. A hidden layer
 3. An output layer
 In an MLP, there is only one hidden layer but in Neural Networks or CNN's, there can be many.
+
+After reviewing each algorithm, we have decided to use the CNN. This is because of its superior prcessing power and multiple layers that allow for more complex processing. This would be helpful
+realistically, as the hand signals made by the users may not always be perfectly clear. We believe that the CNN would be abkle to distinguish different hand signals more 
+effectively
+
+Method:
+1.) Collect the relevant data and sort it into a dataset. Make sure the data is useable and accurate.
+2.) Using the Cnn algorithm, write the code for identifying different hand gestures and converting them into text.
