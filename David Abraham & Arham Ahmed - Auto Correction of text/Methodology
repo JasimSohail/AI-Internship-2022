@@ -64,8 +64,15 @@ What is meant by K nearest neighbor?
 
 - KNN is a non-parametric method used for classification
 
-Naive Bays:
+Naive Bayes:
 
 - Naive Bayes is based on an approach to calculate conditional probability based on prior knowledge, and the naive assumption that each feature is independent to each other.
 
 - The biggest advantage of Naive Bayes is that, while most machine learning algorithms rely on large amount of training data, it performs relatively well even when the training data size is small. Gaussian Naive Bayes is a type of Naive Bayes classifier that follows the normal distribution. 
+
+
+
+
+   After reviewing the purposes and uses of these six different algorithms, we concluded that the "Naive Bayes" deemed the most appropriate for our
+autocorrection model. The unique approach of this algorithm best suited the goals that our model intends to achieve. Hnece, the following Steps will
+be based on the "Naive Bayes".  
