@@ -1,1 +1,18 @@
+Methodology
 
+We have found some references and datasets that we can use so the next step is to refer to them to start with the code
+
+to make a pedestrian detection algorithim we need to use neural networks for the machine learning. there are 3 types of neural networks:
+
+Artificial Neural Networks (ANN)
+Convolution Neural Networks (CNN)
+Recurrent Neural Networks (RNN)
+
+we are going to be using Convolution Neural Networks (CNN) because this is the best neural network for our purpose
+
+to start with our code we first need to import some modules that are required like:
+numpy
+pandas
+matplotlib
+tensorflow
+These are some of the modules that we will need for our code
