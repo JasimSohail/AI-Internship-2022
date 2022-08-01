@@ -13,6 +13,11 @@ There are many algorithms that we can choose from:
 
 
 Neural Network:
+A neural network is a code that is supposed to replicate the human brain's thought process, inspired by the neurons of the brain, hence the name.
+It is a set of algorithms to recognize and classify data given from information on a given database.
+This is a very common way of classifying images or text and has many different uses in many different industries.
+The way it works is a code has an input layer, where the data is given. Then there are hidden layers. There could be just one or there could be many. After going through these layers, an output is produced.
+This is structured to replicate the neurons in a brain.
 
 
 CNN:
@@ -23,3 +28,9 @@ The CNN is also made up of three seperate layers: a convolutional layer, a pooli
 
 
 MLP:
+A multilayer perceptron is also an algorithm to help classification. 
+It is also a neural network and follows the same structure as one.
+1. An input layer
+2. A hidden layer
+3. An output layer
+In an MLP, there is only one hidden layer but in Neural Networks or CNN's, there can be many.
