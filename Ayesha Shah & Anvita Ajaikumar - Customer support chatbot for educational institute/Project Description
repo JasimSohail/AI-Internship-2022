@@ -101,24 +101,77 @@
     Understanding that the purpose of this chatbot is for an educational institute, we have decided to go with a self-learning retrieval-based chatbot. This is
     because it offers a much wider variety of responses to different questions. It being retrieval-based also means we would be able to customize the fluency
     in which it responds, as well as the degree of formality and etc. 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    **Program Platform**
+    
+    # write an assessment regarding multiple program platforms.
+    
+    # evaluate which platform would be most suitable for this project.
     
     ------------------------------------------------------------------------------------------------------------------------------------------------------------
-    **Exploratory Data Analysis**
     
-    To properly understand and identify the method that will be most suitable for this project, we first have to perform initial investigations on data so as to
-    discover patterns, spot anomalies, test hypotheses, and check assumptions with the help of summary statistics and graphical representations.
+    **Intent, Entity & Dialog**
     
-    There are generally 3 steps involved in an exploratory data analysis:
-        1. Visualizing data
-        2. Finding similarities or correlations
-        3. Eliminating redundant features or data
+    To properly understand and identify the method that will be most suitable for this project, we first have to figure out the user's intent, the entity, and
+    the dialogue.
     
-    Visualizing data is done in order to further cultivate our understanding of intricate details contained within the dataset, as well as the ways in which the
+    Chatbots use natural language processing (NLP) to understand the user’s intent which means recognizing user’s aim in starting this conversation. Intent
+    recognition is a critical feature that determines if a chatbot will succeed at fulfilling the user’s needs.
+    
+    The quantity of the chatbot’s training data is essential in order to maintain a good conversation with the user. However, the data quality determines the
+    bot’s ability to detect the right intent and generate the correct response.
+    
+    There are generally 3 steps involved in identifying intent:
+        1. Data collection
+        2. Preprocessing
+        3. Morphological analysis
+        4. Machine learning classifier selection and feature extraction
+        5. Performance measure and comparison
+        
+    Natural language processing (NLP) allows the chatbot to understand the user’s message, and machine learning classification algorithms to classify this
+    message based on the training data, and deliver the correct response. The steps required for the chatbot to have an informative conversation include:
+        1. Preprocessing for Natural Language Understanding (NLU)
+                NLU is a sub-catagory in NLP that focuses on organizing the user’s unstructured input such that the chatbot can understand and analyze it. This 
+                process includes:
+                        1. Syntax analysis
+                                Identifying the basic grammar rules, word organization, combination and relation to one another. This consists of:
+                                    - Splitting the text into smaller segments (words, shorter sentences) called "Tokens"
+                                    - Labeling the tokens as noun, verb, adjective, etc. This step is called "Part of Speech" tagging (PoS)
+                                    - Reducing words into their roots for better analysis
+                                    - Filter out filling words to save space and time in processing large data
+                        2. Semantic analysis
+                                Inferring the meaning of the input sentence by:
+                                    - Distinguishing the context of each word
+                                    - Understanding the relationships between the words in the text
+                NLU models utilize:
+                    - Supervised machine learning for syntax analysis steps (tokenization, PoS tagging), such as support vector machines (SVM), Bayesian networks,
+                      and maximum entropy algorithms.
+                    - Unsupervised machine learning for semantic analysis such as clustering algorithms.
+                    
+        2. Chatbot Intent Classificcation
+                Classifiers are trained on relevant labeled datasets, therefore this is a supervised learning application. Classifiers utilize:
+                    - Rules based pattern matching
+                    - Machine learning classification algorithms such as decision trees, naïve Bayes, and logistic regression.
+                    - Deep learning such as artificial neural networks
+                An intent classifier is used to match the output of the NLU process to relevant pre-defined labels in the training dataset. For example, when the
+                user tells the chatbot: “I want to book a flight from Houston to LA”, the intent classifier will classify the context and sequence of words under
+                the label “book flight”.
+        
+        3. Response Generation
+                To generate responses, chatbots either rely on pre-defined recommendations or they could generate recommendations on the fly. For commercial
+                applications, responses tend to be pre-defined to ensure that customers receive a consistent service and the bot does not respond in unintended
+                ways.
+                
+                The dialog is formulated to achieve a specific goal, like acquiring the user’s information, providing suggestions about a product or a service,
+                or directing the user to a live receptionist.
+    
+    #Visualizing data is done in order to further cultivate our understanding of intricate details contained within the dataset, as well as the ways in which the
     data can be used to achieve our goals. 
     
-    Correlations can be found via the visualization of data. Generally, less correlated features decreases the value of usefulness that may be possible to attain.
+    #Correlations can be found via the visualization of data. Generally, less correlated features decreases the value of usefulness that may be possible to attain.
     
-    After identifying correlations within the dataset, it becomes easily possible to identify reduntant features. They are then removed because they have little
+    #After identifying correlations within the dataset, it becomes easily possible to identify reduntant features. They are then removed because they have little
     to no effect on the results of the model.
     
     ------------------------------------------------------------------------------------------------------------------------------------------------------------
