@@ -76,3 +76,32 @@ Naive Bayes:
    After reviewing the purposes and uses of these six different algorithms, we concluded that the "Naive Bayes" deemed the most appropriate for our
 autocorrection model. The unique approach of this algorithm best suited the goals that our model intends to achieve. Hnece, the following Steps will
 be based on the "Naive Bayes".  
+
+Steps:
+
+Here we will demonstrate how we will lay out our procedures
+
+
+
+
+First we would need to import the neccessary librabies:
+ 
+-Pandas
+-Numpy
+
+After this we would need a data set to train and test our model. From a little searching we have discovered a file including 1001 of the most popular words today, this set would be enough for a wide range of vocabulary.
+
+We need to load the data using pip so we can work with it
+
+Data pre processing:
+
+importing numpy as np
+importing pandas as pd
+
+Implement the function process_data which
+1) Reads in a corpus
+2) Changes everything to lowercase
+3) Returns a list of words.
+
+implement get_probs function
+to calculate the probability that any word will appear if randomly selected from the dictionary
