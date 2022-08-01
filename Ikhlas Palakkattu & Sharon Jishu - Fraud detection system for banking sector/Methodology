@@ -1,0 +1,23 @@
+Libraries to be imported:
+
+- pandas, numpy, matplotlib, sklearn, os, config, model_dispatcher, joblib, argparse
+
+
+The data is already seperated into two files called "identity" and "transaction", they are joined by TransactionID. the data is also already split for training and testing
+
+The first step we will take is creating a proper cross validation strategy using "StratifiedKFold " from sklearn
+
+We will then merge the identity and transaction data from the train and test set
+
+Next we wil add a column name called "kfold" to our training data and set the index in accordance with the fold it is
+
+we will build is our model_dispatcher.py of which we call our classifiers and train.py where we train our model
+
+we will import Logistic Regression and Random Forest  and create a dictionary for calling the algorithms into our train script
+
+we set training data as the values in the column "kfold" that and the values that are equal to the fold we passed is the test set. 
+
+Then we do Label encoding to the categorical variables, and fill all missing values with 0 before training our data
+
+
+Finally we will calculate the accuracy of the  modelusing .accuracy_score from sklearn
