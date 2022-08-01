@@ -145,5 +145,5 @@
                 from keras.models import Sequential
                 from keras.layers import Dense, Activation, Dropout
                 from keras.optimizers import SGD
-        3. create and train the chatbot
+        3. .
                 #write soon.
