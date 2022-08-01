@@ -1,5 +1,37 @@
+1st Dataset
+
 About Dataset:
+
 40,000 images of 50 different LEGO bricks
 in the dataset, you will find 50 different LEGO bricks rendered by 800 different angles
+
+2nd dataset 
+
+about the dataset:
+
+Contains 12 classes across 6 brick types, and more than 20,000 images taken by 4 cameras
+
+Classes
+The classes in this set are both for Lego and Generic Bricks:
+
+1x1 Lego & Bricks
+1x2 Lego & Bricks
+1x4 Lego & Bricks
+2x2 Lego & Bricks
+2x2_L Lego & Bricks
+2x3 Lego & Bricks
+
+File Included
+Two Csv Files:
+
+1 - ImageKey.csv: Includes a list of all the images, folder location, the corresponding background image at the time of capture, and the classification
+
+2 - EvaluationKey.csv: The evaluation sets don't have the class in their filename, and in this file you will find each files brick type class.
+
+3 Sets of Images:
+
+1 - Base Images: These are the original takes of each brick, using four cameras. You can use the timestamp of the imagekey.csv to figure out which ones should be grouped.
+
+2 - Cropped Images: These already crop the brick section of the image, just in case you want to save youself some image manipulation steps and jump right into the Data Science.
 
 
