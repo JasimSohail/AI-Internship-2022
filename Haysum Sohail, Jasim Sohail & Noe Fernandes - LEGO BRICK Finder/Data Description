@@ -32,6 +32,6 @@ Two Csv Files:
 
 1 - Base Images: These are the original takes of each brick, using four cameras. You can use the timestamp of the imagekey.csv to figure out which ones should be grouped.
 
-2 - Cropped Images: These already crop the brick section of the image, just in case you want to save youself some image manipulation steps and jump right into the Data Science.
+2 - Cropped Images: These already crop the brick section of the image.
 
 
