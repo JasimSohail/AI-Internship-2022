@@ -1,3 +1,41 @@
+
+To start of we have selected a few algorthims we will use for a model
+
+Algorithms we will use:
+- Logistic regression
+- Random Forest
+
+
+Logistic Regression:
+Logistic regression is a process of modeling the probability of a discrete outcome given an input variable. The most commonly used logistic regression models a 
+binary outcome; something that can take two values such as true/false, yes/no, and so on. The proposed system uses logistic regression to build the classifier to 
+prevent frauds in credit card transactions. To handle dirty data and to ensure a high degree of detection accuracy, a pre-processing step is used. Logistic 
+regression has become an important tool in the discipline of machine learning. It allows algorithms used in machine learning applications to classify incoming 
+data based on historical data. As additional relevant data comes in, the algorithms get better at predicting classifications within data sets.
+
+Random Forest:
+Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the 
+predictive accuracy of that dataset. Instead of relying on one decision tree, the random forest takes the prediction from each tree, and based on the majority 
+votes of predictions, it predicts the final output.
+
+
+
+Exploratory Data Analysis (EDA):
+
+ Exploratory data analysis (EDA) is the first step in the data analysis process.
+ It is an approach used by data scientists as a way of analyzing and investigating data sets for any anomolies for example to summarize their main characteristics, often using statistical graphics and other data visualization methods. 
+
+EDA can be performed in a series of steps.
+
+Visualizing data:
+
+Data visualization is the practice of translating information into a visual context, such as common graphics - charts, plots, infographics, and even animations, to make data easier to understand and pull insights from. The main goal of data visualization is to make it easier to identify patterns, trends and outliers in large data sets.
+
+Visualisation data is an advantage to briefly explain data especially quantitaive data often used in the banking sector.
+
+
+
+
 Libraries to be imported:
 
 - pandas, numpy, matplotlib, sklearn, os, config, model_dispatcher, joblib, argparse
@@ -9,7 +47,7 @@ The first step we will take is creating a proper cross validation strategy using
 
 We will then merge the identity and transaction data from the train and test set
 
-Next we wil add a column name called "kfold" to our training data and set the index in accordance with the fold it is
+Next we will add a column name called "kfold" to our training data and set the index in accordance with the fold it is
 
 we will build is our model_dispatcher.py of which we call our classifiers and train.py where we train our model
 
