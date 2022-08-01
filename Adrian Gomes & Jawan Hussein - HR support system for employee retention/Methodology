@@ -78,11 +78,6 @@ Exploratory Data Analysis (EDA):
   
   
   
-  
-  
-  
-  
-  
   Training our model:
   
   With the data we have collected, we will separate the data into the train and test subset using a 70-30 split (70% for training, 30% for testing).
