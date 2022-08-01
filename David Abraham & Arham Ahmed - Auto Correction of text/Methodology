@@ -98,17 +98,14 @@ To begin, we would need to import the neccessary libraries:
 After this, we obtian a suitable data set to train and test our model. Through extensive research, we were able to come up with a file including 1001 of the most popular words used by individuals today. 
 This set would be enough for a wide range of vocabulary.
 
-We need to load the data using pip so we can work with it
+Next we need to implement functions to edit our given word, these include 4 main functinons:
 
-Data pre processing:
+-'SwitchLetter' (Swaps to adajacent Character)
+-'Replace_letter' (Replaces one Character for another)
+-'Insert_Letter' (Adds additional Character)
+-'Delete_Letter' (Deletes a character)
 
-importing numpy as np
-importing pandas as pd
+Then we need to combine the functions and alow the Model to switch between the functions if needed.
 
-Implement the function process_data which
-1) Reads in a corpus
-2) Changes everything to lowercase
-3) Returns a list of words.
 
-implement get_probs function
-to calculate the probability that any word will appear if randomly selected from the dictionary
+
