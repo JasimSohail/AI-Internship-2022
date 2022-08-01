@@ -3,7 +3,7 @@ Methodology
 So far, based on my understanding I have collected data needed to train the model and the platform to train the model,
 now we need to create the model.
 
-To build a live speech to text convertor, we would firstly require an algorithm that will be the foundation based on which, using the a platform the program can be 
+To build a speech to text convertor, we would firstly require an algorithm that will be the foundation based on which, using the a platform the program can be 
 coded.
 
 There are many platforms which can be chosen:
@@ -27,6 +27,8 @@ The three basic steps to training the model are:
 3) Lastly, package the model
 
 Kaldi:
+Kaldi is an open source toolkit made for dealing with speech data. It's being used in voice related applications mostly for speech recognition.
+
 Kaldi’s model can be divided into two main components:
 The first part is the Acoustic Model, which used to be a GMM but now it was wildly replaced by Deep neural networks. Model will transcribe the audio features that 
 we created into some sequence of context-dependent phonemes.
@@ -55,7 +57,7 @@ My process of the project:
 To complete my project I would be following these steps below:
 
 Download a Python Speech Recognition module.
-Installing PyAudio.
+Installing pip speechrecognition.
 Inputting speech using a microphone and translation of text.
 Text would be the basic commands to test out the code initially.
 Lastly, input the code to output the text using the speech recognition software tools.
