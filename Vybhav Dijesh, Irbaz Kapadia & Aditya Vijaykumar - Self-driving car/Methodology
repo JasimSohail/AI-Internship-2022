@@ -76,6 +76,9 @@ train and test.
 
 We do this using the train_test_split function, which will split all the data values into variables such as:
 
+Training accuracy:
+
+We can find how accurate our model is after training, using .accuracy_score from sklearn.
 
 
 
