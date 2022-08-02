@@ -122,7 +122,7 @@
     The quantity of the chatbot’s training data is essential in order to maintain a good conversation with the user. However, the data quality determines the
     bot’s ability to detect the right intent and generate the correct response.
     
-    There are generally 3 steps involved in identifying intent:
+    There are generally 3 steps involved in intent classification:
         1. Data collection
         2. Preprocessing
         3. Morphological analysis
@@ -166,13 +166,35 @@
                 The dialog is formulated to achieve a specific goal, like acquiring the user’s information, providing suggestions about a product or a service,
                 or directing the user to a live receptionist.
     
-    #Visualizing data is done in order to further cultivate our understanding of intricate details contained within the dataset, as well as the ways in which the
-    data can be used to achieve our goals. 
+    Certain things, such as typos and spelling errors, may make it difficult for the chatbot to decipher the user's intent. After understanding various problems
+    such as this, we will implement these solutions:
+    - AI spell checking algorithms can be implemented with NLP models to autocorrect users’ misspellings and typos. For example, Google Docs’s autocorrect feature
+      that points out misspellings, grammatical errors, and provides enhancements on text structure.
+    - Lemmatization will make it easier for the chatbot to understand the user's queries.
+    - Allowing users to create custom intents. For example in Amazon Alexa the user can set rules for the chatbot to perform a specific task by providing a name
+      and a list of utterances that users would say to invoke this intent. [OPTIONAL]
+    - Increasing the volume of training data will decrease the margin of error in intent detection.
+    - Converting to lower case.
+    - Tokenizing (splitting sentences into small decipherable words for the computer to understand) via NLTK's (Natural Language Toolkit) Tweettokenizer.
+    - Filtering out stop-words (irrelvant additional vocabulary).
+    - Removing punctuation and URL links.
+    - Expanding contractions.
+    - Removing emojis and numbers.
+    - Limiting each message length to 50
+      
+    Now, we will move onto entity extraction.
     
-    #Correlations can be found via the visualization of data. Generally, less correlated features decreases the value of usefulness that may be possible to attain.
+    Entities are predefined categories of names, organizations, time expressions, quantities, and other general groups of objects that make sense. Using NLP,
+    chatbots can extract entities from entries that users type in in order return around accurate recommendations and answers.
     
-    #After identifying correlations within the dataset, it becomes easily possible to identify reduntant features. They are then removed because they have little
-    to no effect on the results of the model.
+    Knowing the difference between intent and entity is critical to using chatbots for customer service. Intent implies what the customer is looking for, whereas
+    entity is the specified field/data.
+    
+    Intent and entities in chatbots are both essential to delivering what the customer wants and needs.
+    
+    Due to the fact that this chatbot's purpose is regarding an educational institute, many of the specific necessary entities would be academically-related.
+    
+    
     
     ------------------------------------------------------------------------------------------------------------------------------------------------------------
     
