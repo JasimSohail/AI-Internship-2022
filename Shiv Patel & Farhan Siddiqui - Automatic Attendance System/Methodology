@@ -1,1 +1,27 @@
+We'll be working on Google Colab as our platform.
 
+The libraries dlib, numpy, pandas, pathlib, mathplotlib, glob, OpenCV will be used.
+
+Firstly, we will photograph each student in the classroom and post those images to Google Colab. Number of images of each 
+student will be 30 images, 10 from the front, 10 from the left side and 10 from the right side. 
+
+Thereafter, we'll train the AI to identify the pictures.
+
+The AI will be then tested with a different photo of a person who's photo was already used to train the AI to see if
+the AI can identify correctly the identity of that person. This evaluating image will be obtained through a image 
+captured by a webcam on site. This image will be imported to the program by using python3 webcam - capture - v1.01.py.
+This command will also automatically conver the image to grayscale and 28x28 size.
+
+If the answer is no, a relevant message will be displayed
+if the answer is yes, That person will be marked as Present in a 2D array in the code. Each element of the array wil
+that day.
+
+if the answer is yes, That person will be marked as Present in a 2D array in the code. Each element of the array will 
+have the names of student, and whether they are present or absent. Prior to the running of the code, all students
+would be marked as absent, and will be changed to present when the AI has identified a student after a webcam takes a 
+photo of them.
+
+After the end of the designated time for registering attendance through the webcam, the array will be transferred to
+an excel sheet using .toexcel(excel_writer = ".....")
+
+This excel sheet will tell us the attendance of every student for that day.
