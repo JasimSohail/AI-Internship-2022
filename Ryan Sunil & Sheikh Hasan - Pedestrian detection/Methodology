@@ -10,6 +10,8 @@ Recurrent Neural Networks (RNN)
 
 we are going to be using Convolution Neural Networks (CNN) because this is the best neural network for our purpose
 
+CNN uses maths to find edges and identify shapes this is very useful in computer vision to find and identify specific objects in an image and this is why we have also decided to use the CNN algorithim
+
 to start with our code we first need to import some modules that are required like:
 numpy
 pandas
