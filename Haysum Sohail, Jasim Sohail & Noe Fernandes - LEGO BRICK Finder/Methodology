@@ -1,1 +1,19 @@
 
+Methodology
+
+We have so far we have collected the data set and mentioned our references. Now we have to set up the code
+
+To make the LEGO brick Finder we need to experiment with different programs and algorithms that match up and make the most
+efficenit program that can be used 
+
+we have  a bunch of algorithms:
+  tensorflow
+  Confusion matrix
+  liner aggresion 
+  logistic regression
+  descion tree
+  
+We are also going to use a bunch of modules and functions from other sources as well
+Such as :
+  pandas, numpy, matplotlib, sklearn, os
+  
