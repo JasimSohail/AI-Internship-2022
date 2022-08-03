@@ -56,3 +56,6 @@ Use the .fit function - x_train, y_train as parameters
 Training accuracy:
 
 We can find how accurate our model is after training, using .accuracy_score from sklearn.
+
+How will our project solve our problem?
+Our project will solve the problems of future viewers who want to watch Marvel movies as our model will predict the ratings and reviews. The output(predictions) of our model will help future viewers to decide whether to watch the upcoming movies.
