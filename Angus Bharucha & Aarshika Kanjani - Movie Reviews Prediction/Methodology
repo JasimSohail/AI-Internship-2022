@@ -26,7 +26,7 @@ Libraries:
 Model Selection:
 
 As mentioned at the start of the article the task is supervised machine learning. 
-We know it’s a regression task because we are being asked to predict a numerical outcome
+We know it’s a regression task because we are being asked to predict a numerical outcome.
 
 I used the decision tree as my baseline model then built on this experience to tune my candidate models. 
 This approach saves a lot of time as decision trees are quick to train and can give you an idea of how to tune the hyperparameters for my candidate models.
