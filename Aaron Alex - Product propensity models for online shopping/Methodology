@@ -143,7 +143,7 @@ We do this using the train_test_split function, which will split all the data va
   
 The parameters used in the function will be the predictor variable and target (predicted feature) variable.
 
-Now we import .naive_bayes (our classifier algorithm) from sklearn to train the model 
+Now we import .naive_bayes or logistic regression or whatever our classifier algorithm may be from sklearn to train the model 
 Use the .fit function - x_train, y_train as parameters
 
   
