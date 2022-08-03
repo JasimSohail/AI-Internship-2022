@@ -5,13 +5,10 @@ Now we need to create the model.
 
 To build a movie review model, we first need an algorithm that will act as the foundation from which the program can be coded.
 
-There are many algorithms that we can choose from:
+These are the algorithms that we implemented in this machine learning project:
 
-1) Make a DataFrame from Random Numbers
-2) Count Group Elements
-3) Linear Search
-4) Decision Trees
-5) 
+1) Linear Regression
+2) Decision Trees
 
 The graphs that we are going to be using:
 
