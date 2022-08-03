@@ -7,8 +7,13 @@ To build a movie review model, we first need an algorithm that will act as the f
 
 These are the algorithms that we implemented in this machine learning project:
 
-1) Linear Regression
-2) Decision Trees
+1) Linear Regression: 
+using linear regression, it analysis is used to predict the value of a variable based on the value of another variable. This can be useful to others 
+as the output can predict future desicions in movies. 
+
+2) Decision Trees: 
+A decision tree uses a tree-like model of decisions and their possible consequences, including chance event outcomes,resource costs, and utility.
+It is one way to display an algorithm that only contains conditional control statements.
 
 The graphs that we are going to be using:
 
@@ -58,4 +63,8 @@ Training accuracy:
 We can find how accurate our model is after training, using .accuracy_score from sklearn.
 
 How will our project solve our problem?
-Our project will solve the problems of future viewers who want to watch Marvel movies as our model will predict the ratings and reviews. The output(predictions) of our model will help future viewers to decide whether to watch the upcoming movies.
+
+Our project will solve the problems of future viewers who want to watch Marvel movies as our model will predict the ratings and reviews.
+The output(predictions) of our model will help future viewers to decide whether to watch the upcoming movies. Our visuals that we have implied 
+in the project will help decide for people whether they would really want to watch an upcoming marvel movie or not, as we are using endgame as our example
+this can also be implied for other future movies as well. 
